@@ -2,7 +2,8 @@
 
 minimal system info display with gengar ascii art
 
-![preview](image.png)
+![preview](public/image.png)
+
 
 ## features
 

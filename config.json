@@ -1,0 +1,159 @@
+"modules": [
+    "break",
+    {
+        "type": "custom",
+        "format": "\u001b[95m╔══════════════════════ HARDWARE ═══════════════════════╗"
+    },
+    {
+        "type": "host",
+        "key": "\u001b[95m║\u001b[92m  PC",
+        "keyColor": "green"
+    },
+    {
+        "type": "cpu", 
+        "key": "\u001b[95m║ \u001b[92m├ ",
+        "keyColor": "green"
+    },
+    {
+        "type": "gpu",
+        "key": "\u001b[95m║ \u001b[92m├ 󰢮 ",
+        "keyColor": "green" 
+    },
+    {
+        "type": "memory",
+        "key": "\u001b[95m║ \u001b[92m├  ",
+        "keyColor": "green"
+    },
+    {
+        "type": "disk",
+        "key": "\u001b[95m║ \u001b[92m└  ",
+        "keyColor": "green"
+    },
+    {
+        "type": "custom",
+        "format": "\u001b[95m╚═══════════════════════════════════════════════════════╝"
+    },
+    "break",
+    {
+        "type": "custom", 
+        "format": "\u001b[96m╔══════════════════════ SOFTWARE ═══════════════════════╗"
+    },
+    {
+        "type": "os",
+        "key": "\u001b[96m║\u001b[93m  OS",
+        "keyColor": "yellow"
+    },
+    {
+        "type": "kernel",
+        "key": "\u001b[96m║ \u001b[93m├  ",
+        "keyColor": "yellow"
+    },
+    {
+        "type": "bios",
+        "key": "\u001b[96m║ \u001b[93m├ ",
+        "keyColor": "yellow"
+    },
+    {
+        "type": "packages", 
+        "key": "\u001b[96m║ \u001b[93m├ 󰏖 ",
+        "keyColor": "yellow"
+    },
+    {
+        "type": "shell",
+        "key": "\u001b[96m║ \u001b[93m└  ",
+        "keyColor": "yellow"
+    },
+    {
+        "type": "custom",
+        "format": "\u001b[96m╚═══════════════════════════════════════════════════════╝"
+    },
+    "break",
+    {
+        "type": "custom",
+        "format": "\u001b[94m╔════════════════════ DESKTOP ENV ═══════════════════════╗"
+    },
+    {
+        "type": "de",
+        "key": "\u001b[94m║\u001b[34m  DE",
+        "keyColor": "blue"
+    },
+    {
+        "type": "lm", 
+        "key": "\u001b[94m║ \u001b[34m├  ",
+        "keyColor": "blue"
+    },
+    {
+        "type": "wm",
+        "key": "\u001b[94m║ \u001b[34m├  ",
+        "keyColor": "blue"
+    },
+    {
+        "type": "wmtheme",
+        "key": "\u001b[94m║ \u001b[34m├ 󰉼 ",
+        "keyColor": "blue"
+    },
+    {
+        "type": "terminal",
+        "key": "\u001b[94m║ \u001b[34m└  ",
+        "keyColor": "blue"
+    },
+    {
+        "type": "custom",
+        "format": "\u001b[94m╚═══════════════════════════════════════════════════════╝"
+    },
+    "break",
+    {
+        "type": "custom",
+        "format": "\u001b[91m╔═════════════════════ NETWORK ══════════════════════════╗"
+    },
+    {
+        "type": "localip",
+        "key": "\u001b[91m║\u001b[31m  Local IP",
+        "keyColor": "red"
+    },
+    {
+        "type": "publicip",
+        "key": "\u001b[91m║ \u001b[31m├  Public IP", 
+        "keyColor": "red"
+    },
+    {
+        "type": "wifi",
+        "key": "\u001b[91m║ \u001b[31m└ 󰖩 WiFi",
+        "keyColor": "red"
+    },
+    {
+        "type": "custom",
+        "format": "\u001b[91m╚═══════════════════════════════════════════════════════╝"
+    },
+    "break",
+    {
+        "type": "custom",
+        "format": "\u001b[93m╔══════════════════ UPTIME / AGE / DT ════════════════════╗"
+    },
+    {
+        "type": "command",
+        "key": "\u001b[93m║\u001b[35m  OS Age",
+        "keyColor": "magenta",
+        "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+    },
+    {
+        "type": "uptime",
+        "key": "\u001b[93m║ \u001b[35m├  Uptime",
+        "keyColor": "magenta"
+    },
+    {
+        "type": "datetime",
+        "key": "\u001b[93m║ \u001b[35m└  DateTime",
+        "keyColor": "magenta"
+    },
+    {
+        "type": "custom",
+        "format": "\u001b[93m╚═══════════════════════════════════════════════════════╝"
+    },
+    "break",
+    {
+        "type": "colors",
+        "paddingLeft": 10,
+        "symbol": "block"
+    }
+]
